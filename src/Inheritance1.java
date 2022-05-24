@@ -2,9 +2,6 @@ class Animal{
 	void eat() {
 		System.out.println("eating");
 	}
-	void sleep() {
-		System.out.println("sleeping");
-	}
 }
 
 class Dog extends Animal {
@@ -27,6 +24,6 @@ public class Inheritance1 {
 		bd.weep();
 		bd.bark();
 		bd.eat();
-		bd.sleep();
+		
 	}
 }
